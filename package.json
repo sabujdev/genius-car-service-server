@@ -1,7 +1,6 @@
 {
   "name": "genius-car-service-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,5 +15,14 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongodb": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammingHero1/genius-car-service-server-module-66.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProgrammingHero1/genius-car-service-server-module-66/issues"
+  },
+  "homepage": "https://github.com/ProgrammingHero1/genius-car-service-server-module-66#readme",
+  "description": ""
 }
