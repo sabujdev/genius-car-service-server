@@ -30,6 +30,9 @@ async function run() {
             const services = await cursor.toArray();
             res.send(services);
         });
+        app.get('/hero' ,(req,res)=>{
+            res.send('this is hero section')
+        })
 
         app.get('/service/:id', async(req, res) =>{
             const id = req.params.id;
